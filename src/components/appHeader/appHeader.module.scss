@@ -1,0 +1,10 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(58, 130, 190);
+  padding:10px 0;
+  &_name{
+    margin:0;
+    color: #fff;
+  }
+}

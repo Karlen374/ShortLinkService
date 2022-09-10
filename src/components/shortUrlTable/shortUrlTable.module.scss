@@ -1,0 +1,26 @@
+.pagination{
+  margin:20px 0;
+  ul{
+  justify-content: center;
+  }
+}
+.short{
+  &_input{
+    background-color: #fff;
+    font-size: 14px;
+    padding:5px;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    width: 190px;
+    &:hover{
+      cursor:pointer;
+      background-color: rgb(13, 38, 88);
+      color: #fff;
+    }
+  }
+  &_button{
+    background-color: inherit;
+    border:none;
+  }
+}

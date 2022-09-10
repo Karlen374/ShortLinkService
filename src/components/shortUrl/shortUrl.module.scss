@@ -1,0 +1,35 @@
+.link{
+  &_input{
+    font-size: 20px;
+    padding:5px;
+    margin:15px 0;
+  }
+}
+.short{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:40px 0;
+  h3{
+    margin:0;
+  }
+  &_input{
+    background-color: #fff;
+    font-size: 16px;
+    padding:5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color:black;
+    width:220px;
+    border: none;
+    &:hover{
+      cursor:pointer;
+      background-color: rgb(13, 38, 88);
+      color: #fff;
+    }
+  }
+  &_button{
+    background-color: inherit;
+    border:none;
+  }
+}
